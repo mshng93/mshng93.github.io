@@ -47,7 +47,6 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat-Bold', sans-serif;
-	margin: 30px 0 10px 0px;
 	line-height: 1.4;
 	font-weight: 400;
 	color: #034C8C;
@@ -55,10 +54,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 36px;
+	margin: 30px 0 10px 0px;
 }
 
 h2 {
 	font-size: 30px;
+	margin: 30px 0 10px 0px;
 }
 
 h3 {
@@ -68,14 +69,17 @@ h3 {
 
 h4 {
 	font-size: 20px;
+	margin: 30px 0 10px 0px;
 }
 
 h5 {
 	font-size: 18px;
+	margin: 30px 0 10px 0px;
 }
 
 h6 {
 	font-size: 16px;
+	margin: 30px 0 10px 0px;
 }
 
 p {
