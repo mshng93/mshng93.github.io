@@ -84,8 +84,40 @@ p {
 
 .lead {
 	line-height: 1.8;
-	font-weight: 200;
-	font-size: 16px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+@media (max-width: 2560px) {
+
+	.lead {
+		font-size: 32px;
+	}
+
+	body {
+		font-size: 20px;
+	}
+
+}
+
+@media (max-width: 1440px) {
+
+	.lead {
+		font-size: 24px;
+	}
+
+	body {
+		font-size: 16px;
+	}
+
+}
+
+@media (max-width: 426px) {
+
+	.lead {
+		font-size: 18px;
+	}
+
 }
 
 .font-300 {
@@ -801,7 +833,7 @@ p.copyright {
 	display: table;
 	height: 100%;
 	width: 70%;
-	text-align: left;
+	text-align: center;
 	margin: 0 auto;
 	z-index: 2;
 }
@@ -820,6 +852,14 @@ p.copyright {
 	font-size: 62px;
 	margin: 0 0 20px;
 	color: #ffffff;
+}
+
+@media (max-width: 1440px) {
+
+	.hero-title {
+		font-size: 62px;
+	}
+
 }
 
 @media (max-width: 992px) {
