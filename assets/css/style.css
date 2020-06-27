@@ -1324,7 +1324,7 @@ p.copyright {
 }
 
 .owl-theme .owl-controls .owl-buttons div {
-	background: #fff;
+	background: #034C8C;
 	display: block;
 	height: 46px;
 	width: 46px;
@@ -1333,14 +1333,14 @@ p.copyright {
 	text-align: center;
 	line-height: 46px;
 	font-size: 16px;
-	color: #111;
+	color: #fff;
 	-webkit-border-radius: 0;
 	   -moz-border-radius: 0;
 	        border-radius: 0;
-	-webkit-transition: all 0.3s;
-	   -moz-transition: all 0.3s;
-	     -o-transition: all 0.3s;
-	        transition: all 0.3s;
+	-webkit-transition: all 3.0s;
+	   -moz-transition: all 3.0s;
+	     -o-transition: all 3.0s;
+	        transition: all 3.0s;
 }
 
 /*------------------------------------------------------------------
