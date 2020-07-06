@@ -44,8 +44,8 @@
 	</div>
 	<!-- /PRELOADER -->
 
-	<!-- NAVIGATION -->
-	<nav class="navbar navbar-fixed-top navbar-custom">
+<!-- NAVIGATION -->
+	<nav class="navbar navbar-fixed-top navbar-custom navbar-transparent">
 
 		<div class="container">
 		
@@ -60,7 +60,7 @@
 				<!-- YOU LOGO HERE -->
 				<a class="navbar-brand" href="index.html">
 					<!-- IMAGE OR SIMPLE TEXT -->
-					<img class="light-logo" src="assets/images/mn_white.png" width="50" alt="Melinda Ng">
+					<h>MELINDA NG</h>
 				</a>
 			</div>
 		
@@ -68,15 +68,11 @@
 		
 				<ul class="nav navbar-nav navbar-right">
 		
-					<li><a href="index.html" class="section-scroll">MELINDA NG</a></li>
+					<li><a href="index.html" class="section-scroll">WORK</a></li>
 
 					<li><a href="about.html" class="section-scroll">ABOUT</a></li>
 		
-					<li><a href="involvement.html" class="section-scroll">INVOLVEMENT</a></li>
-		
-					<li><a href="https://drive.google.com/open?id=0B9D4JrhmDJUPcWQ4NlFPNjRlenc" target="_blank">RESUME</a></li>
-		
-					<li><a href="mailto:mshng93@gmail.com?subject=[Portfolio] Hello" class="_blank">CONTACT</a></li>
+					<li><a href="contact.html" class="section-scroll">CONTACT</a></li>
 		
 				</ul>
 			</div>
@@ -85,17 +81,19 @@
 
 	</nav>
 	<!-- /NAVIGATION -->
+	<!-- /NAVIGATION -->
 
 	<!-- WRAPPER -->
 	<div class="wrapper">
 
 		<!-- HERO -->
-		<section id="hero" class="module-hero module-parallax module-overlay-dark-1" data-background="assets/images/module-4.jpg">
+		<section id="hero" class="module-hero module-parallax module-overlay-dark-1" data-background="assets/images/ParallaxTitles/title_index.png">
 
 			<!-- HERO TEXT -->
 			<div class="hero-caption">
 				<div class="hero-text">
-					<h1 class="hero-title m-t-70">GET IN TOUCH</h1>
+					<h1 class="hero-title m-t-0 m-b-0">Get in Touch!</h1>
+					<p class="lead m-t-0" style=""></p>
 				</div>
 			</div>
 			<!-- /HERO TEXT -->
@@ -107,43 +105,36 @@
 		<section id="contact" class="module module-w">
 			<div class="container">
 
-				<div class="row">
+				<div align="center" class="col-sm-8 col-sm-offset-2 wow fadeInUp">
 
-					<div class="col-sm-6 wow fadeInUp">
+					<p>Glad to have grasped your interest! Please feel free to see my <a href="https://www.linkedin.com/in/melindan/">Linkedin</a>, send me an <a href="mailto:mshng93@gmail.com?subject=(Subject)" target="_blank">email</a></a>, or use the form below.</p>
 
-						<form id="contact-form" class="m-b-sm-70" novalidate="">
-							<div class="form-group">
-								<label class="sr-only" for="cname">Name</label>
-								<input type="text" id="cname" class="form-control" name="cname" placeholder="Name" required="" data-validation-required-message="Please enter your name.">
-								<p class="help-block text-danger"></p>
-							</div>
-							<div class="form-group">
-								<label class="sr-only" for="cemail">Your Email</label>
-								<input type="email" id="cemail" name="cemail" class="form-control" placeholder="Your E-mail" required="" data-validation-required-message="Please enter your email address.">
-								<p class="help-block text-danger"></p>
-							</div>
-							<div class="form-group">
-								<textarea class="form-control" id="cmessage" name="cmessage" rows="7" placeholder="Message" required="" data-validation-required-message="Please enter your message."></textarea>
-								<p class="help-block text-danger"></p>
-							</div>
-							<div class="text-center">
-								<button type="submit" class="btn btn-block btn-round btn-dark">Submit</button>
-							</div>
-						</form>
+					<hr>
 
-						<!-- Ajax response -->
-						<div id="contact-response" class="ajax-response"></div>
+					<h3>LEAVE A MESSAGE</h3>
 
-					</div>
+					<form id="contact-form" class="m-b-sm-70" novalidate="">
+						<div class="form-group">
+							<label class="sr-only" for="cname">Name</label>
+							<input type="text" id="cname" class="form-control" name="cname" placeholder="Name" required="" data-validation-required-message="Please enter your name.">
+							<p class="help-block text-danger"></p>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="cemail">Your Email</label>
+							<input type="email" id="cemail" name="cemail" class="form-control" placeholder="Your E-mail" required="" data-validation-required-message="Please enter your email address.">
+							<p class="help-block text-danger"></p>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" id="cmessage" name="cmessage" rows="7" placeholder="Message" required="" data-validation-required-message="Please enter your message."></textarea>
+							<p class="help-block text-danger"></p>
+						</div>
+						<div class="text-center">
+							<button type="submit" class="btn btn-block btn-round btn-dark">Submit</button>
+						</div>
+					</form>
 
-					<div class="col-sm-6 wow fadeInUp">
-						<h5>Additional info</h5>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-						<ul class="list-unstyled">
-							<li><abbr title="Phone">P:</abbr> (123) 456-7890</li>
-							<li>E-mail: <a href="mailto:name@email.com">mshng93@gmail.com</a></li>
-						</ul>
-					</div>
+					<!-- Ajax response -->
+					<div id="contact-response" class="ajax-response"></div>
 
 				</div>
 
@@ -160,19 +151,8 @@
 			<div class="row">
 	
 				<div class="col-sm-12">
-					<div class="social-icons text-center m-b-40">
-						<a href="https://www.linkedin.com/in/ngfinity/" target="_blank" class="fa fa-linkedin linkedin"></a>
-						<a href="https://www.facebook.com/ngfinity" target="_blank" class="fa fa-facebook facebook"></a>
-						<a href="https://twitter.com/ngfinity" target="_blank" class="fa fa-twitter twitter"></a>
-						<a href="https://plus.google.com/+MelindaNngfinity" target="_blank" class="fa fa-google-plus google-plus"></a>
-						<a href="https://www.instagram.com/ngfinity/" target="_blank" class="fa fa-instagram instagram"></a>
-						<a href="https://ngfinity.wordpress.com/" target="_blank" class="fa fa-wordpress wordpress"></a>
-					</div>
-				</div>
-	
-				<div class="col-sm-12">
 					<div class="copyright text-center">
-						© 2017 <a href="index.html">Melinda Ng</a>, All Rights Reserved.
+						© 2020 <a href="#">Melinda Ng</a>, All Rights Reserved.
 					</div>
 				</div>
 	
