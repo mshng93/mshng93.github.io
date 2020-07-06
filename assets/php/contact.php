@@ -1,11 +1,11 @@
 <?php
 
 	// Mail settings
-	$to      = "web-master72@yandex.ru";
+	$to      = "melinda.sh.ng@gmail.com";
 	$subject = "Test Contact Form";
 
 	// You can put here your email
-	$header = "From: noreply@parker.com\r\n";
+	$header = "From: melinda.sh.ng@gmail.com\r\n";
 	$header.= "MIME-Version: 1.0\r\n";
 	$header.= "Content-Type: text/plain; charset=utf-8\r\n";
 	$header.= "X-Priority: 1\r\n";
