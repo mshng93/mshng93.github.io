@@ -19091,4 +19091,46 @@ footer .pull-center {
   }
 }
 
+/*test*/
+
+.portfolio-piece {
+  position: relative;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  opacity: 0;
+  transition: opacity 0.25s;
+  backdrop-filter: blur(5px);
+}
+
+.portfolio-overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.portfolio-overlay:hover {
+  opacity: 1;
+}
+
+.portfolio-overlay:hover > * {
+  transform: translateY(0);
+}
+
+.portfolio-description {
+  font-size: 1.25em;
+}
+
+
 /*# sourceMappingURL=kit-free.css.map */
