@@ -14902,7 +14902,7 @@ textarea {
 .navbar.navbar-transparent {
   background-color: transparent !important;
   box-shadow: none;
-  padding-top: 25px;
+  padding-top: 10px;
   color: #ffffff;
 }
 
@@ -16820,7 +16820,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .page-header {
-  height: 66.6vh;
+  height: 50.6vh;
   background-position: center center;
   background-size: cover;
   margin: 0;
@@ -18273,7 +18273,7 @@ footer .pull-center {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .profile-page .page-header {
