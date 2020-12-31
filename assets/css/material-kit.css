@@ -830,7 +830,7 @@ h5,
 
 h6,
 .h6 {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
 }
 
 .lead {
@@ -15432,7 +15432,7 @@ h5,
 
 h6,
 .h6 {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -19142,6 +19142,66 @@ footer .pull-center {
   margin: 0 0 10px;
   color: #737373;
 }
+
+/*Scroll To Top Button*/
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(#29539D, #446FBB, #5C85CD, #5EB1E0, #77CEEA, #81D5EF, #8EDBF3, #AFECFF, #AFECFF, #CAF2FF, #E9FAFF, #fff)
+}
+    
+main {
+  height: 200vmin
+}
+    
+.scrollToTopBtn {
+  background-color: #A575E9;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 48px;
+  box-shadow: 0 7px 13px -6px rgba(255, 255, 255, 0.8);
+  
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  transform: translateY(100px);
+  /* and a transition */
+  transition: all .5s ease
+}
+
+
+.scrollToTopBtn:hover {
+  color: #fff;
+  background-color: #7445B2;
+  border-color: #771e86;
+  box-shadow: 0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(156, 39, 176, 0.35), 0 8px 10px -5px rgba(153, 153, 153, 0.2);
+}
+
+.scrollToTopBtn:focus,
+.scrollToTopBtn.focus {
+  outline: 0;
+}
+
+    
+.showBtn {
+  opacity: 1;
+  transform: translateY(0)
+}
+
+
 
 
 /*# sourceMappingURL=kit-free.css.map */
