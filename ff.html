@@ -80,7 +80,7 @@
 
         <!--OVERVIEW-->
 
-        <div class="section">
+        <div class="section" id="top">
           <div class="row justify-content-center">
 
             <div class="col-md-12">
@@ -126,20 +126,20 @@
         <div class="section">
           <div class="row justify-content-center">
 
-            <div class="col-md-4">
-              <a href="ff.html#ff-challenge"><img src="assets/img/icons/icon-problem.png" class="img-fluid" alt="icon: challenge"></a>
+            <div class="col-md-4" id="overview">
+              <img src="assets/img/icons/icon-problem.png" class="img-fluid" alt="icon: challenge">
               <h6>Challenge</h6>
               <p>How do we make the Family Waiting Room space more fun and still let waiting guests enjoy the attraction's story?</p>
             </div>
 
             <div class="col-md-4">
-              <a href="ff.html#ff-solution"><img src="assets/img/icons/icon-solution.png" class="img-fluid" alt="icon: solution"></a>
+              <img src="assets/img/icons/icon-solution.png" class="img-fluid" alt="icon: solution">
                <h6>Solution</h6>
                <p>Implement themed physical and digital game options such as slot cars and tablet minigames usable by a large demographic.</p>
             </div>
 
             <div class="col-md-4">
-              <a href="ff.html#ff-impact"><img src="assets/img/icons/icon-impact.png" class="img-fluid" alt="icon: impact"></a>
+              <img src="assets/img/icons/icon-impact.png" class="img-fluid" alt="icon: impact">
               <h6>Impact</h6>
               <p>The first Family Waiting Room of its kind with built-in interactivity, raising attraction accessibility and inclusion.</p>
             </div>
@@ -159,7 +159,7 @@
             <div class="col-md-2"></div>
 
             <div class="col-md-8">
-              <div class="description text-left" id="ff-challenge">
+              <div class="description text-left" id="context">
                 <h6>Context</h6>
                 <h2 class="title">What Is A Family Waiting Room?</h2>
 
@@ -215,7 +215,7 @@
 
             <div class="col-md-2"></div>
 
-            <div class="col-md-8">
+            <div class="col-md-8" id="goals">
               <div class="description text-left">
                 <h6>goals<h6>
 
@@ -245,7 +245,7 @@
 
             <div class="col-md-2"></div>
 
-            <div class="col-md-8">
+            <div class="col-md-8" id="research">
               <div class="description text-left">
                 <h6>research</h6>
                 <h2 class="title">Observation-Focused</h2>
@@ -282,7 +282,7 @@
 
             <div class="col-md-2"></div>
             <div class="col-md-8">
-              <div class="description text-left" id="ff-solution">
+              <div class="description text-left" id="process">
                 <h6>process<h6>
 
                 <h2 class="title">Brainstorm</h2>
@@ -399,7 +399,7 @@
             <div class="col-md-2"></div>
 
             <div class="col-md-8">
-              <div class="description text-left" id="ff-impact">
+              <div class="description text-left" id="metrics">
                 <h6>metrics<h6>
                 <h2 class="title">A Learning Opportunity</h2>
                 <p>The Family Waiting Room is a very small part of the larger attraction that the Guest Satisfaction Surveys do not typically gather statistics for. Although we were able to visibly improve this Family Waiting Room in comparison to others, we still strive to advocate for the measurements to be taken into account for GSATs.</p>
@@ -411,7 +411,7 @@
             <div class="col-md-2"></div>
             <div class="col-md-2"></div>
 
-            <div class="col-md-8">
+            <div class="col-md-8" id="impact">
               <div class="description text-left">
                 <h6>impact<h6>
                 <h2 class="title">Expansion to Other Attractions</h2>
@@ -507,7 +507,19 @@
   <!--END FOOTER-->
 
   <!-- Button on fixed on bottom right corner of the page -->
-  <button class="scrollToTopBtn">☝️</button>
+  <div class="menu-floatUp">
+    <button class="scrollToTopBtn">👀</button>
+    <div class="menu-floatUp-content">
+      <a href="#top">Top of Page</a>
+      <a href="#overview">Overview</a>
+      <a href="#context">Context</a>
+      <a href="#goals">Goals</a>
+      <a href="#research">Research</a>
+      <a href="#process">Process</a>
+      <a href="#metrics">Metrics</a>
+      <a href="#impact">Impact</a>
+    </div>
+  </div>
 
   <!--   Core JS Files   -->
   <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
