@@ -214,6 +214,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  margin: 2rem auto 2rem auto;
 }
 
 svg:not(:root) {
@@ -644,6 +645,13 @@ svg:not(:root) {
 
 table {
   border-collapse: collapse;
+  border: 1px solid black;
+}
+
+td, th {
+  padding:10px 10px 10px 10px;
+  border: 1px solid #29539D;
+  width: 50%;
 }
 
 caption {
@@ -2049,7 +2057,7 @@ pre code {
 
 .table th,
 .table td {
-  padding: 0.75rem;
+  padding: 1.5rem;
   vertical-align: top;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
@@ -11848,7 +11856,7 @@ label {
 }
 
 .title {
-  margin-top: 30px;
+  margin-top: 1.75em;
   margin-bottom: 25px;
   min-height: 32px;
 }
@@ -19139,10 +19147,15 @@ footer .pull-center {
 }
 
 .img-caption {
-  font-size: 0.8em;
+  font-size: 1em;
   padding: 10px;
-  margin: 0 0 10px;
-  color: #737373;
+  margin: -1rem 0 1rem 0;
+  color: gray;
+}
+
+.project-role {
+  font-size: 1.25em;
+  margin-top: 2em;
 }
 
 /*Scroll To Top Button*/
@@ -19175,7 +19188,7 @@ main {
   bottom: 50px;
   right: 50px;
   /* keep it at the top of everything else */
-  z-index: 100;
+  z-index: 90;
   /* hide with opacity */
   opacity: 0;
   /* also add a translate effect */
@@ -19288,5 +19301,97 @@ main {
 video {
   padding: 500px;
 }
+
+/* Image Expand*/
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 100;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modalExpand {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(255,255,255,0.9); /* Black w/ opacity */
+  z-index: 100;
+}
+
+/* Modal Content (image) */
+.modalExpand-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 1500px;
+  z-index: 100;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: rgb(73, 73, 73);
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modalExpand-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.modalClose {
+  position: absolute;
+  top: 100px;
+  right: 35px;
+  color: #A575E9;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.modalClose:hover,
+.modalClose:focus {
+  color: #7445B2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modalExpand-content {
+    width: 100%;
+  }
+}
+
 
 /*# sourceMappingURL=kit-free.css.map */
